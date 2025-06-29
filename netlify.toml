@@ -1,6 +1,6 @@
 [build]
   command = "npm install && npm run build"
-  publish = "dist/ticketapp" # Ajusta si tu carpeta 'dist' es diferente (e.g., dist/ticketapp)
+  publish = "dist/ticketapp/browser"
 
 [[redirects]]
   from = "/*"
