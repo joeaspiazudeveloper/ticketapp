@@ -1,0 +1,34 @@
+.ticket-availability-panel {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.selected-movie-details {
+    margin-top: 15px;
+}
+
+.movie-thumbnail {
+    max-width: 100px;
+    /* Adjust size as needed */
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.selected-movie-details h3 {
+    font-size: 1.3em;
+    margin-bottom: 5px;
+}
+
+.selected-movie-details p {
+    font-size: 1.1em;
+    color: #007bff;
+}
+
+.placeholder-info {
+    color: #666;
+    padding: 20px;
+}

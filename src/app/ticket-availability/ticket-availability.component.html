@@ -1,0 +1,15 @@
+<div class="ticket-availability-panel">
+  <h2>Movie Selected with Number of Tickets</h2>
+
+  @if (currentMovieAvailability) {
+    <div class="selected-movie-details">
+      <img [src]="currentMovieAvailability.imageUrl" alt="{{ currentMovieAvailability.title }}" class="movie-thumbnail">
+      <h3>{{ currentMovieAvailability.title }}</h3>
+      <p>Number of Tickets: <strong>{{ currentMovieAvailability.ticketsAvailable }}</strong></p>
+    </div>
+  } @else {
+    <div class="placeholder-info">
+      <p>Please select a movie clicking the "Check Availability" button.</p>
+    </div>
+  }
+</div>
