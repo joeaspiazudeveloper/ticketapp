@@ -14,9 +14,6 @@ export class AppComponent implements OnChanges  {
   @Input() receivedMovieId: number | null = null;
 
   ngOnChanges(changes: SimpleChanges): void {
-    // This component acts as a passthrough. The 'receivedMovieId' will automatically be passed
-    // to the 'selectedMovieId' input of the 'app-ticket-availability' component in the template.
-    // No explicit logic is needed here unless you wanted to transform the ID or do other side effects.
     if (changes['receivedMovieId']) {
       console.log(`TicketApp Wrapper received ID: ${changes['receivedMovieId'].currentValue}`);
     }
